@@ -1,5 +1,5 @@
 ### CIVILSA.COM
-### Proyecto desarrollado en Laravel y Boostrap
+### Proyecto desarrollado en Laravel y Bootstrap
 
 ---
 
