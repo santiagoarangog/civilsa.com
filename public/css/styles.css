@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/**
+* Descripción de la clase: Estilos CSS Developer Men Inc.
+* Autor: Developer Men
+* Descripcion : Estos son los estilos globales del Sitio Web Developer Men
+** Fecha creación: 15/01/2017
+* Versión actual: 1.0
+*
+* Control de cambios: < >
+* Versión: < >
+* Autor: Developer Men
+* Correo electrónico: contactanos@developermen.com
+* Fecha modificación: < >
+* Descripción cambios realizados: < >
+*/
+/* @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900|Playfair+Display:400,400i,700,700i,900,900i'); */
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,700,400italic,700italic'); */
+*::selection {
+	background: var(--green);
+	color: #ffffff;
+	text-shadow: 1px 1px var(--green);
+}
+
+/* Firefox */
+*::-moz-selection {
+	background: var(--green);
+	color: #ffffff;
+	text-shadow: 1px 1px var(--green);
+}
+
+.pace {
+	-webkit-pointer-events: none;
+	pointer-events: none;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.pace-inactive {
+	display: block;
+}
+
+.pace .pace-progress {
+	background: var(--green);
+	position: fixed;
+	z-index: 2000;
+	top: 0;
+	right: 100%;
+	width: 100%;
+	height: 2px;
+}
+
+.carousel-item {
+	height: 70vh !important;
+	min-height: 300px !important;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.carousel-item img {
+	display: flex !important;
+	align-items: center !important;
+}
+
+.slider {
+	overflow-x: hidden;
+}
+.slider-container {
+	transform: translateX(0);
+	animation: slider 10s infinite;
+}
+
+.image-container {
+	width: 100%;
+	padding-top: 56.25%;
+	background-size: Cover;
+	background-position: center;
+	flex-shrink: 0;
+}
+
+@keyframes slider {
+	0% {
+		transform: translateX(0);
+	}
+
+	20% {
+		transform: translateX(0);
+	}
+
+	25% {
+		transform: translateX(-100%);
+	}
+
+	45% {
+		transform: translateX(-100%);
+	}
+
+	50% {
+		transform: translateX(-200%);
+	}
+
+	70% {
+		transform: translateX(-200%);
+	}
+
+	75% {
+		transform: translateX(-300%);
+	}
+
+	95% {
+		transform: translateX(-300%);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
